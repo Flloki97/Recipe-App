@@ -66,7 +66,7 @@ searchBtn.addEventListener("click", () => {
                 recipe.style.display = "block";
             });
         }).catch(() =>{
-            result.innerHTML = `<h3>Invalid Input</h3>`
+            result.innerHTML = `<h3>We don't have a dish with that name</h3>`
         });
         
 
